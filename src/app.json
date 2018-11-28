@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/main",
+    "pages/list/main",
+    "pages/detail/main",
+    "pages/movies/main",
+    "pages/movie/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#489B81",
+    "navigationBarTitleText": "welcome to guigu"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/list/main",
+      "iconPath":"/static/images/tab/yuedu.png",
+      "selectedIconPath":"/static/images/tab/yuedu_hl.png",
+      "text": "阅读"
+    }, {
+      "pagePath": "pages/movies/main",
+      "iconPath":"/static/images/tab/dianying.png",
+      "selectedIconPath":"/static/images/tab/dianying_hl.png",
+      "text": "电影"
+    }]
+  }
+}
